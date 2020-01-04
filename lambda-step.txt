@@ -1,0 +1,4 @@
+1.进入lambda目录，分为filter、redirect功能目录
+2.进入rule目录，vim需要修改域名的yaml文件，修改完后保存退出，并对yaml代码使用工具验证是否正确，可使用https://yaml-online-parser.appspot.com/
+3.修改完成后回退rule上一级目录，输入make命令，如没有make，使用npm install 安装
+4.将make后生成的zip文件下载本地后上传lambda
